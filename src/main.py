@@ -169,25 +169,24 @@ class VoltageData:
         return None
     
     def plot(self, ax=None, fmt='bo', **plot_options):
-       
+
        """ Draws the data points using matplotlib.pyplot.
-       
-       Attributes
-       ----------
-       ax : obj, optional
+
+        Attributes
+        ----------
+        ax : obj, optional
             Existing figure to add to the plot, defaults to None.
-       
-       fmt : str, optional
+
+        fmt : str, optional
             Color, marker, linestyle formatter, defaluts to 'bo'.
 
         plot_options : str, optional
-            Other plot options.
 
         Returns
         -------
         ax : obj
             Figure object.
-       """
+         """
 
        # The user can provide an existing figure to add the plot, otherwise we
        # create a new one.
